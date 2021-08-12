@@ -8,13 +8,13 @@ import {
   useRouteMatch,
 } from "react-router-dom";
 import Register from "./views/register";
-import Controller from "./views/controller";
+import Stop from "./views/stop";
 
 function App() {
   return (
     <Router>
       <Route path="/register" component={Register} />
-      <Route path="/controller" component={Controller} />
+      <Route path="/stop" component={Stop} />
     </Router>
   );
 }
